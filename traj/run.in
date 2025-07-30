@@ -1,0 +1,16 @@
+potential    ./nep_y2023_m09_d06_h08_m27_s23_generation500000.txt
+velocity     650
+
+ensemble    npt_ber 650 650 100 0 0 0 53.4059 53.4059 53.4059 2000
+time_step   1
+dump_thermo 100
+dump_exyz   100000 1 1
+dump_position   100
+dump_restart   100
+run         1000000
+
+
+
+
+
+
