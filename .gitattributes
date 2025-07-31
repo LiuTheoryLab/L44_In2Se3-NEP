@@ -1,1 +1,0 @@
-traj/movie.xyz filter=lfs diff=lfs merge=lfs -text
